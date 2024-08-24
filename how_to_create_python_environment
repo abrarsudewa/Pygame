@@ -1,0 +1,24 @@
+How to create a virtual environment in python:
+
+1. Create a project folder
+syntax: mkdir [your_project_name]
+$ mkdir flappy_bird
+
+2. Enter the project folder in visualstudio code
+syntax: code [your_project_name]
+$ code flappy_bird
+
+--- In vscode do this (using the divscode terminal):
+3. Enter the project folder
+syntax: cd [your_project_name]
+$ cd flappy_bird
+
+4. Create a python virtual environment in your project
+syntax: python3 -m venv [your_environment_name]
+/flappybird$ python3 -m venv myFlappyBird
+
+5. Activate the environment
+/flappybird$ source myFlappyBird/bin/activate
+
+This is to deactivate the environment
+/flappybird$ deactivate
